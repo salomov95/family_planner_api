@@ -40,6 +40,6 @@
 
 ### Contribution
 
-You can help us by submitting a PR, refer to [CONTRIBUTE.md](./CONTRIBUTE.md) to see how.
+You can help us by submitting a PR, refer to [CONTRIBUTE.md](./CONTRIBUTE) to see how.
 
 <!-- 2024 - salomov95 | All rights reserved. -->
