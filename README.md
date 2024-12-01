@@ -21,22 +21,30 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;This choice plays a major role in this project due to its simplicity and modularity, in which helps in developing, testing and maintaining software.
 
-### What It Does?
+### Requirements
+  - Functional:
+      - Upload of bills info.
+      - Retrieve info about a bill, such as amount to pay, the due date, etc.
+      - List bills, separating by it's payment status.
+      - Update bill info as of later payment.
+      - Manage money entry/exit.
+      - When uploading/updating a bill/expense the amount to pay should reflect on remaining funds displayed to the user if marked as paid.
 
-* It can store user's bills
-* It can help monitor finance and spends
-* It can help organize shopping
-* It can help find points where to cut out in finances
-
-### What It Doesn't?
-
-* It can't send money
-* It can't pay user's bills
-* It can't do the shopping for users
+  - Non-Functional:
+      - Must have a admin dashboard on web.
+      - Must have a companion app for daily use.
 
 ### Basic Flux
 
 ![flux](https://github.com/user-attachments/assets/1ed37f12-daf1-422a-81be-f3d50033af8b)
+
+### How To Setup And Run Locally
+
+_**TBD**_
+
+### See It Live At
+
+_**TBD**_
 
 ### Contribution
 
