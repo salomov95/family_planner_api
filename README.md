@@ -14,8 +14,8 @@
 &nbsp;&nbsp;Being one of the most used software architectures, the MVC (Model-View-Controller) provides a simple, yet concise, way for build modern, mudular applications, by separating the application in three layers.
 
 * Model - Which handles data logics and data manipulation.
-* View  - Which handles with the external world, delivering responses, contents, errors statuses and more.
-* Contr - Which handles business logics and interacts alone with both layers Model and View.
+* View - Which handles with the external world, delivering responses, contents, errors statuses and more.
+* Controller - Which handles business logics and interacts alone with both layers Model and View.
 
 ### Requirements
   - Functional:
