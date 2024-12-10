@@ -11,32 +11,37 @@
 
 ### Architecture
 
-#### What is MVC
-&nbsp;&nbsp;&nbsp;&nbsp;MVC (Model/View/Controller), is a software architecture where a given application is split in three main layers. The first one is the Model layer, where the data is treated, stored and retrieved if necessary.
+&nbsp;&nbsp;Being one of the most used software architectures, the MVC (Model-View-Controller) provides a simple, yet concise, way for build modern, mudular applications, by separating the application in three layers.
 
-&nbsp;&nbsp;&nbsp;&nbsp;The second layer is the Controller, there is where the business logic come, making a bridge between the Model and the View. Lastly is the View layer, that is responsible for handling with user's request and for delivery responses to the user.
-
-#### Why MVC
-&nbsp;&nbsp;&nbsp;&nbsp;Despite being one of the most used architecture in web development, it ease's the pain of of creating one on it's own, which is pretty hard to accomplish.
-
-&nbsp;&nbsp;&nbsp;&nbsp;This choice plays a major role in this project due to its simplicity and modularity, in which helps in developing, testing and maintaining software.
+* Model - Which handles data logics and data manipulation.
+* View  - Which handles with the external world, delivering responses, contents, errors statuses and more.
+* Contr - Which handles business logics and interacts alone with both layers Model and View.
 
 ### Requirements
   - Functional:
-      - Upload of bills info.
-      - Retrieve info about a bill, such as amount to pay, the due date, etc.
+      - Upload of bills info, including optional assets.
+      - Handle expenses entry.
+      - Retrieve info about a bill.
       - List bills, separating by it's payment status.
-      - Update bill info as of later payment.
+      - Update a bill info.
       - Manage money entry/exit.
       - When uploading/updating a bill/expense the amount to pay should reflect on remaining funds displayed to the user if marked as paid.
+      - Alert user about a bill near due date, via email or push notification.
+      - Authentication with one time passcode.
+      - Authentication with email and password.
 
   - Non-Functional:
-      - Must have a admin dashboard on web.
+      - Role based authentication.
+      - Must have a dashboard on web.
       - Must have a companion app for daily use.
 
 ### Basic Flux
 
 ![flux](https://github.com/user-attachments/assets/1ed37f12-daf1-422a-81be-f3d50033af8b)
+
+### Stack Choices
+
+_**TBD**_
 
 ### How To Setup And Run Locally
 
