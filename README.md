@@ -1,58 +1,201 @@
-## Family Planner
-> &nbsp; _Making easier to manage finances and such_.
+<div align="center">
+  <br />
+    <a href="#" target="_blank">
+      <img src="https://github.com/orafael-almeida/readme-projects-template/blob/main/images/banner.png?raw=true" alt="Project Banner">
+    </a>
+  <br />
 
----
+  <!--div>
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=next.js&color=black" alt="Next;js" />
+    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="React.js" />
+    <img src="https://img.shields.io/badge/-Node_js-black?style=for-the-badge&logoColor=white&logo=node.js&color=6DA55F" alt="Node.js" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="TailwindCSS" />
+  </div-->
+<br/><br/></br>
+ 
+  <h1 align="center">Family Planner</h1>
 
-### Motivations
+   <div align="center">
+     Making easier to manage finances and such.
+    </div>
+</div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;Sometimes it can be really tough handling expenses, and saving money seems an impossible task. But fear no more, Family Planner comes to the rescue!
+## 📋 <a name="table">Sumary</a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;Born to help managing finances and shopping for home, it comes with a whole set of features to make things easier.
+1. 🚀 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 💻 [Quick Start](#quick-start)
+5. 💾 [Environment Variables](#envs)
+6. 📅 [Releases](#versions)
+7. 🤝 [Contributing](#contributing)
+8. 👥 [Authors](#authors)
 
-### Architecture
 
-&nbsp;&nbsp;Being one of the most used software architectures, the MVC (Model-View-Controller) provides a simple, yet concise, way for build modern, mudular applications, by separating the application in three layers.
 
-* Model - Which handles data logics and data manipulation.
-* View - Which handles with the external world, delivering responses, contents, errors statuses and more.
-* Controller - Which handles business logics and interacts alone with both layers Model and View.
 
-### Requirements
-  - Functional:
-      - Upload of bills info, including optional assets.
-      - Handle expenses entry.
-      - Retrieve info about a bill.
-      - List bills, separating by it's payment status.
-      - Update a bill info.
-      - Manage money entry/exit.
-      - When uploading/updating a bill/expense the amount to pay should reflect on remaining funds displayed to the user if marked as paid.
-      - Alert user about a bill near due date, via email or push notification.
-      - Authentication with one time passcode.
-      - Authentication with email and password.
+## <a name="introduction">🚀 Introduction</a>
 
-  - Non-Functional:
-      - Role based authentication.
-      - Must have a dashboard on web.
-      - Must have a companion app for daily use.
+&nbsp;Sometimes it can be really tough handling expenses, and saving money seems an impossible task. But fear no more, Family Planner comes to the rescue!
 
-### Basic Flux
+&nbsp;Born to help managing finances and shopping for home, it comes with a whole set of features to make things easier.
 
-![flux](https://github.com/user-attachments/assets/1ed37f12-daf1-422a-81be-f3d50033af8b)
 
-### Stack Choices
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-_**TBD**_
+- TBD
 
-### How To Setup And Run Locally
 
-_**TBD**_
+## <a name="features">🔋 Features</a>
 
-### See It Live At
+- TDB
 
-_**TBD**_
 
-### Contribution
+## <a name="quick-start">💻 Quick Start</a>
 
-You can help us by submitting a PR, refer to [CONTRIBUTE](./CONTRIBUTE) to see how.
+TBD
 
-<!-- 2024 - salomov95 | All rights reserved. -->
+<!--Follow these steps to set up the project locally on your machine.
+
+**00 - Prerequisites**
+
+To use this project you must have previously installed the following packages:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager or similar)
+
+**01 - Cloning the Repository**
+
+```bash
+git clone https://github.com/orafael-almeida/readme-projects-template
+cd readme-projects-template
+```
+
+**02 - Installation**
+
+Install/Update the project dependencies using npm:
+
+```bash
+npm install
+```
+
+**03 - Running the Project**
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Please, check the port.-->
+
+## <a name="envs">💾 Environment Variables</a>
+
+TBD
+
+<!--details>
+<summary><code>.env.local</code></summary>
+
+```
+# Port where the application will run
+PORT=3000
+
+# Database connection URL
+DATABASE_URL=postgresql://username:password@localhost:5432/mydatabase
+
+# Secret key for generating JWT tokens
+JWT_SECRET=my_super_secret_key
+
+# Base URL for the API
+API_BASE_URL=http://localhost:3000/api
+
+# Execution environment (development, production, test)
+NODE_ENV=development
+
+# Email provider configuration
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_USER=myemail@gmail.com
+EMAIL_PASSWORD=my_email_password
+
+# API key for external service integration
+THIRD_PARTY_API_KEY=1234567890abcdef
+
+```
+
+</details>
+
+<details>
+<summary><code>.env.development</code></summary>
+
+```
+# Port where the application will run
+PORT=3000
+
+# Database connection URL
+DATABASE_URL=postgresql://username:password@localhost:5432/mydatabase
+
+# Secret key for generating JWT tokens
+JWT_SECRET=my_super_secret_key
+
+# Base URL for the API
+API_BASE_URL=http://localhost:3000/api
+
+# Execution environment (development, production, test)
+NODE_ENV=development
+
+# Email provider configuration
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_USER=myemail@gmail.com
+EMAIL_PASSWORD=my_email_password
+
+# API key for external service integration
+THIRD_PARTY_API_KEY=1234567890abcdef
+
+```
+</details-->
+
+## <a name="versions">📅 Release History</a>
+
+* TBD
+
+<!--* 0.2.0
+    * CHANGE: Remove `Biden()`
+    * ADD: Add `feature()`
+* 0.1.1
+    * FIX: Crash when calling `Putin()`
+* 0.1.0
+    * The first proper release
+    * CHANGE: Rename `Elon()` to `Musk()`
+* 0.0.1
+    * Initial work-->
+
+## <a name="contributing">🤝 Contributing</a>
+
+Contributions, issues, and feature requests are welcome!
+
+1. Fork it (<https://github.com/salomov95/family_planner_api>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
+
+
+## <a name="authors">👥 Authors</a>
+
+<table style="border-collapse: collapse; table-layout: auto text-align: left;">
+
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        <img src="https://avatars.githubusercontent.com/u/170432574?v=4" width="60" style="border-radius: 50%; display: block; margin: 0 auto;">
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Salomao Souza</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        <a href="https://br.linkedin.com/in/salomao-souza-643995306" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/salomov95" target="_blank">GitHub</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
