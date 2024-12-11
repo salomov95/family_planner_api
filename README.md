@@ -50,33 +50,12 @@
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Architecture: &nbsp;&nbsp;Being one of the most used software architectures, the MVC (Model-View-Controller) provides a simple, yet concise, way for build modern, mudular applications, by separating the application in three layers.
-  * Model - Which handles data logics and data manipulation.
-  * View - Which handles with the external world, delivering responses, contents, errors statuses and more.
-  * Controller - Which handles business logics and interacts alone with both layers Model and View.
-
-- Requirements
-  * Functional:
-      - Upload of bills info, including optional assets.
-      - Handle expenses entry.
-      - Retrieve info about a bill.
-      - List bills, separating by it's payment status.
-      - Update a bill info.
-      - Manage money entry/exit.
-      - When uploading/updating a bill/expense the amount to pay should reflect on remaining funds displayed to the user if marked as paid.
-      - Alert user about a bill near due date, via email or push notification.
-      - Authentication with one time passcode.
-      - Authentication with email and password.
-
-  * Non-Functional:
-      - Role based authentication.
-      - Must have a dashboard on web.
-      - Must have a companion app for daily use
+- TBD
 
 
 ## <a name="quick-start">💻 Quick Start</a>
 
-TBD
+- TBD
 
 <!--Follow these steps to set up the project locally on your machine.
 
@@ -114,7 +93,7 @@ Please, check the port.-->
 
 ## <a name="envs">💾 Environment Variables</a>
 
-TBD
+- TBD
 
 <!--details>
 <summary><code>.env.local</code></summary>
@@ -181,7 +160,7 @@ THIRD_PARTY_API_KEY=1234567890abcdef
 
 ## <a name="versions">📅 Release History</a>
 
-* TBD
+- TBD
 
 <!--* 0.2.0
     * CHANGE: Remove `Biden()`
