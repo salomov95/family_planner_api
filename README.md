@@ -16,7 +16,7 @@
   <h1 align="center">Family Planner</h1>
 
    <div align="center">
-     Making easier to manage finances and such.
+     Making easier to manage finances and make savings.
     </div>
 </div>
 
