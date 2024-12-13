@@ -44,7 +44,7 @@
 ## <a name="features">🔋 Features</a>
 
 - Easy Authentication.
-- Easy track of expenses.
+- Easy track of funds/expenses.
 - Easy track about information on bills.
 
 
