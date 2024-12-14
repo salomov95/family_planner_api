@@ -39,14 +39,14 @@
 
 &nbsp;Sometimes it can be really tough handling expenses, and saving money seems an impossible task. But fear no more, Family Planner comes to the rescue!
 
-&nbsp;Born to help managing finances and shopping for home, it comes with a whole set of features to make things easier.
+&nbsp;Born to help saving with ease, one's finances shall never fall red again.
 
 
 ## <a name="features">🔋 Features</a>
 
 - Easy Authentication.
 - Easy track of funds/expenses.
-- Easy track about information on bills.
+- Easy track on monthly savings goals.
 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
