@@ -30,6 +30,7 @@
 6. 📅 [Releases](#versions)
 7. 🤝 [Contributing](#contributing)
 8. 👥 [Authors](#authors)
+9. ⚙️ [Wiki](https://github.com/salomov95/family_planner_api/wiki)
 
 
 
